@@ -8,7 +8,7 @@
 
 This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="img/fork.png" alt="fork this repository" />
 
 #### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
@@ -19,7 +19,7 @@ This will create a copy of this repository in your account.
 
 ## Clone the repository
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+<img align="right" width="300" src="img/code.png" alt="clone this repository" />
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
@@ -31,12 +31,12 @@ git clone "url you just copied"
 
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="img/clone.png" alt="copy URL to clipboard" />
 
 For example:
 
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/this-is-you/OpenX.git
 ```
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
@@ -46,7 +46,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd first-contributions
+cd OpenX
 ```
 
 Now create a branch using the `git checkout` command:
@@ -65,16 +65,17 @@ git checkout -b add-alonzo-church
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Now open `team.html` file in a text editor, Add your name, a short bio and your social links (optional) in `team.html` file.
+Replace "your name" inside `<h2>`tags, add your bio inside `<p>`tags and add your social links (optional) inside `href="your link here"`
 
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
+<img align="right" width="450" src="https://user-images.githubusercontent.com/74637789/115558991-e8f1f380-a2d0-11eb-94a6-31d737cb497b.png" alt="git status" />
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add team.html
 ```
 
 Now commit those changes using the `git commit` command:
@@ -111,7 +112,7 @@ Soon I'll be merging all your changes into the master branch of this project. Yo
 
 Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
+Celebrate your contribution and share it with your friends and followers by going to [web app](https://OpenX.github.io/#team.html).
 
 
 
