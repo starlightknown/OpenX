@@ -67,6 +67,7 @@ git checkout -b add-alonzo-church
 
 Now open `team.html` file in a text editor, Add your name, a short bio and your social links (optional) in `team.html` file.
 Replace "your name" inside `<h2>`tags, add your bio inside `<p>`tags and add your social links (optional) inside `href="your link here"`
+Now go to img folder and check out two avatars, come back to `team.html` and put your avatar link after img/  `<img src=img/`
 
 <img align="right" width="450" src="https://user-images.githubusercontent.com/74637789/115558991-e8f1f380-a2d0-11eb-94a6-31d737cb497b.png" alt="git status" />
 
