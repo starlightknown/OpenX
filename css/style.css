@@ -831,7 +831,7 @@ a:focus {
 
 .testimonial .testimonial-slider-nav {
     position: relative;
-    width: 300px;
+    width: 100px;
     margin: 0 auto;
 }
 
@@ -854,7 +854,6 @@ a:focus {
 .testimonial .testimonial-slider-nav .slick-slide img {
     position: relative;
     display: block;
-    margin-top: 37px;
     width: 100%;
     height: auto;
     border-radius: 100px;
@@ -862,7 +861,6 @@ a:focus {
 
 .testimonial .testimonial-slider {
     position: relative;
-    margin-top: 15px;
     padding-top: 50px;
 }
 
