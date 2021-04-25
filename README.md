@@ -115,5 +115,5 @@ Congrats! You just completed the standard _fork -> clone -> edit -> pull request
 
 Celebrate your contribution and share it with your friends and followers by going to [web app](https://starlightknown.github.io/OpenX/team.html)
 
-
-
+## Maintainer
+[Karuna Tata](https://github.com/starlightknown)
